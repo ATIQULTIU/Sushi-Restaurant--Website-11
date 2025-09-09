@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+@import url("5\ header.css");
+@import url("5\ hero.css");
+@import url(5\ about.css);
+@import url(5\ popular.css);
+@import url(5\ trend.css);
+
+
+
+
+
+
+:root{
+    --playfair-display:"playfair Display",serif;
+    --plus-jakarta-sans:"plus Jakarta Sans",sans-serif;
+
+
+    --primary-color:#b1454a;
+    --secondary-color:#121212;
+
+
+    --black-200:#020202;
+    --black-300:#333333;
+    --black-400:#1f1e31;
+    --black-500:#555555;
+    --gray-100:#888888;
+
+
+    --color-white:#fff;
+    --color-creamson:#fffbd3;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color:var(--color-creamson);
+   
+}
+
+.sushi__subtitle{
+   font-size: 18px;
+   font-weight: 400;
+   font-family: var(--plus-jakarta-sans);
+   color: var(--primary-color);
+   opacity: .8;
+   letter-spacing: -0.01em;
+}
+
+.sushi__title{
+    font-size: 64px;
+    font-weight: 600;
+    font-family: var(--playfair-display);
+    color: var(--secondary-color);
+    margin-top: 16px;
+    
+}
+.sushi__description{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--plus-jakarta-sans);
+    line-height: 36px;
+    letter-spacing: -0.01em;
+    color: var(--secondary-color);
+    opacity: .8;
+    margin: 32px 0;
+}
